@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 	</head>
 	<body class="is-preload">
 

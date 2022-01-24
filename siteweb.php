@@ -9,9 +9,24 @@
 									<div class="row">
 										<div class="col-lg-8">
 											<header class="major">
-												<h1>Security Officer - Luxury Retail</h1>
+												<h1>Site Web</h1>
 
-												<h4>Security / Protective Services Jobs</h4>
+												<h4>HTML/CSS, JS</h4>
+
+												<ul class="list-inline dev-icons">
+													<li class="list-inline-item">
+														<i class="devicon-html5-plain-wordmark"></i>
+													</li>
+													<li class="list-inline-item">
+														<i class="devicon-css3-plain-wordmark"></i>
+													</li>
+													<li class="list-inline-item">
+														<i class="devicon-javascript-plain"></i>
+													</li>
+													<li class="list-inline-item">
+														<i class="devicon-sass-original"></i>
+													</li>
+												</ul>
 											</header>
 										</div>
 
@@ -41,61 +56,25 @@
 											<h2>Description</h2>
 										</header>
 
-							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, delectus totam non est excepturi expedita, illum vitae vel dolore exercitationem nobis quasi dicta illo id  quas. Error commodi, modi minus. <br><br>
-							                Perferendis, quidem, facilis. Aspernatur alias numquam saepe deleniti dolorem quos repudiandae eaque ad eligendi quam, ratione, error minima culpa suscipit nostrum magni omnis est. Suscipit dolor sint aut maiores eius, id nemo, optio, quos tempora cum est quas. At recusandae obcaecati consequatur ipsa dignissimos, eius commodi qui quae exercitationem fugiat, voluptatem, nesciunt!
+							            <p> Création et reproduction d'un site web, en utilisant le HTML, un framework CSS et JS afin de le rendre responsive design <br> <br> 
+											Le CSS vient résoudre un problème bien différent du HTML : en effet, le HTML sert à définir les différents
+											 éléments d'une page, à leur donner du sens. Le HTML va donc créer la structure des pages tandis que le CSS va nous permettre 
+											 de modifier l'apparence des contenus de la page.
 							              </p>   
 
-							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptatem vero culpa rerum similique labore, nisi minus voluptatum numquam fugiat. <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugit sint reiciendis quas temporibus quam maxime nulla vitae consectetur perferendis, fugiat assumenda ex dicta molestias soluta est quo totam cum?</p> 
+										  <p>J'ai utilisé le framework Sass qui est un langage de script préprocesseur qui est compilé ou interprété en CSS.</p>
 
-							            <header class="major">
-											<h2>About Cannon Guards Security ltd</h2>
+										<button><a href="https://github.com/GuillaumeDupuy/projet_responsive-design">Accès Repo Github</a></button>
 
-											<h4><i class="fa fa-map-marker"></i> London</h4>
-										</header>
-
-							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, vitae!</p>   
-
-							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima dicta, quibusdam sapiente aliquid tempora ipsam modi. Quasi id quia voluptate?</p>
-
-							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro facere harum nulla excepturi distinctio animi, quo corrupti aspernatur ducimus suscipit! Saepe delectus odio error expedita velit, at, dignissimos consectetur corrupti.</p>
 									</section>
 
 									<section class="split">
 										<section>
-											<img src="images/product-1-720x480.jpg" class="img-responsive" alt="">
-										</section>
-
-										<section>
-											<div class="contact-method">
-												<span class="icon alt fa-user"></span>
-												<h3>Name</h3>
-												<span>John Smith</span>
-											</div>
-										</section>
-
-										<section>
-											<div class="contact-method">
-												<span class="icon alt fa-envelope"></span>
-												<h3>Email</h3>
-												<a href="#">contact@company.com</a>
-											</div>
-										</section>
-										<section>
-											<div class="contact-method">
-												<span class="icon alt fa-phone"></span>
-												<h3>Phone</h3>
-												<span>+1 333 4040 5566</span>
-											</div>
-										</section>
-
-										<section>
-											<div class="contact-method">
-												<span class="icon alt fa-globe"></span>
-												<h3>Website</h3>
-												<a href="http://www.cannonguards.com/">http://www.cannonguards.com/</a>
-											</div>
+											<img src="images/web.png" class="img-responsive" alt="">
+											<img src="images/web2.png" class="img-responsive2" alt="">
 										</section>
 									</section>
+
 								</div>
 							</section>
 					</div>

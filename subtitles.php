@@ -9,9 +9,15 @@
 									<div class="row">
 										<div class="col-lg-8">
 											<header class="major">
-												<h1>Security Officer - Luxury Retail</h1>
+												<h1>Projet Subtitles/Lecteur</h1>
 
-												<h4>Security / Protective Services Jobs</h4>
+												<h4>POO Langage C#</h4>
+
+												<ul class="list-inline dev-icons">
+													<li class="list-inline-item">
+														<i class="devicon-csharp-plain-wordmark"></i>
+													</li>
+												</ul>
 											</header>
 										</div>
 
@@ -41,61 +47,24 @@
 											<h2>Description</h2>
 										</header>
 
-							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, delectus totam non est excepturi expedita, illum vitae vel dolore exercitationem nobis quasi dicta illo id  quas. Error commodi, modi minus. <br><br>
-							                Perferendis, quidem, facilis. Aspernatur alias numquam saepe deleniti dolorem quos repudiandae eaque ad eligendi quam, ratione, error minima culpa suscipit nostrum magni omnis est. Suscipit dolor sint aut maiores eius, id nemo, optio, quos tempora cum est quas. At recusandae obcaecati consequatur ipsa dignissimos, eius commodi qui quae exercitationem fugiat, voluptatem, nesciunt!
-							              </p>   
+							            <p> Le but du projet était de réaliser un VLC Player qui prend en charge un fichier sous-titres,
+											ce qui nous amène à travailler sur du XAML afin de faire une fênetre App et de faire un regex sur
+											le fichier srt afin d'afficher les sous-titres où bon moment du film<br> <br>C# est un langage de 
+											programmation orientée objet, commercialisé par Microsoft depuis 2002 et destiné à 
+											développer sur la plateforme Microsoft .NET.
+							              </p>
 
-							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptatem vero culpa rerum similique labore, nisi minus voluptatum numquam fugiat. <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugit sint reiciendis quas temporibus quam maxime nulla vitae consectetur perferendis, fugiat assumenda ex dicta molestias soluta est quo totam cum?</p> 
+										<button><a href="https://github.com/GuillaumeDupuy/Projet_Subtitles">Accès Repo Github</a></button>
 
-							            <header class="major">
-											<h2>About Cannon Guards Security ltd</h2>
-
-											<h4><i class="fa fa-map-marker"></i> London</h4>
-										</header>
-
-							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, vitae!</p>   
-
-							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima dicta, quibusdam sapiente aliquid tempora ipsam modi. Quasi id quia voluptate?</p>
-
-							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro facere harum nulla excepturi distinctio animi, quo corrupti aspernatur ducimus suscipit! Saepe delectus odio error expedita velit, at, dignissimos consectetur corrupti.</p>
 									</section>
 
 									<section class="split">
 										<section>
-											<img src="images/product-1-720x480.jpg" class="img-responsive" alt="">
-										</section>
-
-										<section>
-											<div class="contact-method">
-												<span class="icon alt fa-user"></span>
-												<h3>Name</h3>
-												<span>John Smith</span>
-											</div>
-										</section>
-
-										<section>
-											<div class="contact-method">
-												<span class="icon alt fa-envelope"></span>
-												<h3>Email</h3>
-												<a href="#">contact@company.com</a>
-											</div>
-										</section>
-										<section>
-											<div class="contact-method">
-												<span class="icon alt fa-phone"></span>
-												<h3>Phone</h3>
-												<span>+1 333 4040 5566</span>
-											</div>
-										</section>
-
-										<section>
-											<div class="contact-method">
-												<span class="icon alt fa-globe"></span>
-												<h3>Website</h3>
-												<a href="http://www.cannonguards.com/">http://www.cannonguards.com/</a>
-											</div>
+											<img src="images/projet5.png" class="img-responsive" alt="">
+											<img src="images/sub.png" class="img-responsive2" alt="">
 										</section>
 									</section>
+
 								</div>
 							</section>
 					</div>
