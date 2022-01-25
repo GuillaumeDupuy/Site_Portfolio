@@ -16,7 +16,7 @@
 
 				<!-- Header -->
 				<header id="header" class="alt">
-					<a href="index.php" class="logo"><strong>PortFolio</strong> <span>Guillaume</span></a>
+					<a href="/" class="logo"><strong>PortFolio</strong> <span>Guillaume</span></a>
 					<nav>
 						<a href="#menu">Menu</a>
 					</nav>
@@ -25,7 +25,7 @@
 				<!-- Menu -->
 				<nav id="menu">
 					<ul class="links">
-		                <li class="active"> <a href="index.php">Home </a> </li>
+		                <li class="active"> <a href="/">Home </a> </li>
 
 		                <li> <a href="about-us.php">About Us</a> </li>
 
