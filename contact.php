@@ -47,7 +47,7 @@
 										// Exécuter la requête sur la base de données
 										$res = mysqli_query($conn, $query);
 										if($res){
-											header('Location: contact_validtion.php');
+											header('Location: contact_validation.php');
 										}
 										}else{
 									?>
