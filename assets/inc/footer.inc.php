@@ -7,7 +7,7 @@
 							<li><a href="linkedin.com/in/guillaume-dupuy/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						</ul>
 						<ul class="copyright">
-							<li>Copyright © 2020 - Template by: Guillaume Dupuy</li>
+							<li>Copyright © <?php $date = date("Y"); Print($date);?> - Template by: Guillaume Dupuy</li>
 							<li> <a href="https://github.com/GuillaumeDupuy?tab=repositories">GitHub</a></li>
 						</ul>
 					</div>
