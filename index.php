@@ -9,7 +9,7 @@
 							<div class="content">
 								<p>Programmeur Junior, Web Developpeur, DATA Scientist</p>
 								<ul class="actions">
-									<li><a href="contact.php" class="button next scrolly">Contact Us</a></li>
+									<li><a href="contact" class="button next scrolly">Contact Us</a></li>
 								</ul>
 							</div>
 						</div>
@@ -25,9 +25,9 @@
 							<header class="major">
 								<h2>About us</h2>
 							</header>
-							<p>Je m'appelle Guillaume DUPUY, j'ai 20ans, je suis actuellement en B3 Informatique Spécialité DATA à Paris Ynov Campus.</p>
+							<p>Je m'appelle Guillaume DUPUY, j'ai 20 ans, je suis actuellement en B3 Informatique Spécialité DATA à Paris Ynov Campus.</p>
 							<ul class="actions">
-								<li><a href="about-us.php" class="button next">Read more</a></li>
+								<li><a href="about-us" class="button next">Read more</a></li>
 							</ul>
 						</div>
 					</section>
@@ -48,7 +48,7 @@
 								<p>Langage C++</p>
 
 								<div class="major-actions">
-									<a href="snake.php" class="button small next">View Projet</a>
+									<a href="snake" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -67,7 +67,7 @@
 								<p>Langage C</p>
 
 								<div class="major-actions">
-									<a href="rpg.php" class="button small next">View Projet</a>
+									<a href="rpg" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -86,7 +86,7 @@
 								<p>Langage Python</p>
 
 								<div class="major-actions">
-									<a href="cardgame.php" class="button small next">View Projet</a>
+									<a href="cardgame" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -105,7 +105,7 @@
 								<p>Langage HTML/CSS</p>
 
 								<div class="major-actions">
-									<a href="siteweb.php" class="button small next">View Projet</a>
+									<a href="siteweb" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -124,7 +124,7 @@
 								<p>Langage C#</p>
 
 								<div class="major-actions">
-									<a href="subtitles.php" class="button small next">View Projet</a>
+									<a href="subtitles" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -143,10 +143,68 @@
 								<p>Shell Linux</p>
 
 								<div class="major-actions">
-									<a href="vpn.php" class="button small next">View Projet</a>
+									<a href="vpn" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
+						
+						<article>
+							<span class="image">
+								<img src="images/projet7.jpg" alt="" />
+							</span>
+
+							<header class="major">
+								<p>
+				                   <i class="fa fa-calendar"></i> 22-02-2022 &nbsp;&nbsp;
+				                </p>
+
+								<h3>Scraping Web & Flask API & Base de Données & Streamlit</h3>
+								<p>Flask Python/MongoDB</p>
+
+								<div class="major-actions">
+									<a href="scrap" class="button small next">View Projet</a>
+								</div>
+							</header>
+						</article>
+						
+						<article>
+							<span class="image">
+								<img src="images/projet9.jpg" alt="" />
+							</span>
+
+							<header class="major">
+								<p>
+				                   <i class="fa fa-calendar"></i> 10-01-2022 &nbsp;&nbsp;
+				                </p>
+
+								<h3>Projet NoSQL</h3>
+								<p>Python/MongoDB</p>
+
+								<div class="major-actions">
+									<a href="nosql" class="button small next">View Projet</a>
+								</div>
+							</header>
+						</article>
+						
+						<article>
+							<span class="image">
+								<img src="images/projet8.jpg" alt="" />
+							</span>
+
+							<header class="major">
+								<p>
+				                   <i class="fa fa-calendar"></i> 01-03-2022 &nbsp;&nbsp;
+				                </p>
+
+								<h3>Machine Learning</h3>
+								<p>Python</p>
+
+								<div class="major-actions">
+									<a href="machine" class="button small next">View Projet</a>
+								</div>
+							</header>
+						</article>
+						
 					</section>
 
 					<!-- Services -->
@@ -158,12 +216,19 @@
 							<div class="row">
 								<div class="col-6">
 									<p>Donner des cours aux étudiants et les accompagner pendant leurs projets</p>
+									<i style="font-size: 2.3em;" class="devicon-go-original-wordmark"></i>
+									<i style="font-size: 2.3em;" class="devicon-csharp-plain-wordmark"></i>
+									<i style="font-size: 2.3em;" class="devicon-php-plain"></i>
+									<i style="font-size: 2.3em;" class="devicon-html5-plain-wordmark"></i>
+									<i style="font-size: 2.3em;" class="devicon-css3-plain-wordmark"></i>
+									<i style="content: url('https://api.iconify.design/simple-icons/sqlite.svg?color=white&width=40');"></i>
+									<br> <br>
 									<p><strong>- Mentorat</strong></p>
 									
 								</div>
 
 								<div class="col-6">
-									<p>Création des applications web avec les technologies: HTML/CSS, Node js, Framework PHP, NoSQL, WordPress, MySQL</p>
+									<p>Création des applications web avec les technologies : HTML/CSS, Node js, Framework PHP, NoSQL, WordPress, MySQL</p>
 									<p><strong>- Création d'applications web</strong></p>
 								</div>
 

@@ -656,9 +656,9 @@ input::-moz-focus-inner {
 		padding-left: 1em;
 	}
 
-		ul li {
-			padding-left: 0.5em;
-		}
+		/*ul li {*/
+		/*	padding-left: 0.5em;*/
+		/*}*/
 
 		ul.alt {
 			list-style: none;
@@ -1666,6 +1666,11 @@ input::-moz-focus-inner {
 				height: 2.75em;
 				line-height: 2.75em;
 			}
+			
+			#header p {
+                margin: 0 0 2em 0;
+                font-size: 13px;
+            }
 
 				#header .logo {
 					padding: 0 1em;
@@ -1702,6 +1707,11 @@ input::-moz-focus-inner {
 			#header .logo span {
 				display: none;
 			}
+			
+			#header p {
+                margin: 0 0 2em 0;
+                font-size: 10px;
+            }
 
 			#header nav a[href="#menu"] {
 				overflow: hidden;
@@ -2332,7 +2342,7 @@ input::-moz-focus-inner {
 		}
 
 		.img-responsive2 {
-			max-width: 130%; 
+			max-width: 125%; 
 			height: auto;
 			display: inline-block;
 			margin-bottom: 50px;

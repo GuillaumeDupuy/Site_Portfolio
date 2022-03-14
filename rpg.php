@@ -27,12 +27,12 @@
 											<br>
 
 											<ul class="icons">
-												<li><a href="https://www.facebook.com/guillaume.dupuy.56/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-												<li><a href="https://www.instagram.com/guill_dup/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+												<!--<li><a href="https://www.facebook.com/guillaume.dupuy.56/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>-->
+												<!--<li><a href="https://www.instagram.com/guill_dup/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>-->
 												<li><a href="linkedin.com/in/guillaume-dupuy/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 											</ul>
 
-											<a href="contact.php" class="button next scrolly">Contact</a>
+											<a href="contact" class="button next scrolly">Contact</a>
 										</div>
 									</div>
 									
@@ -52,7 +52,7 @@
 											très simples, vous choisissez essentiellement d'attaquer un monstre avec une épée, un éclairage 
 											ou votre poing, chaque attaque a une gamme différente de points de vie. Si la santé des monstres 
 											s'épuise avant la vôtre, vous gagnez !
-											<br> <br> Le C est un langage de programmation impératif généraliste, de bas niveau
+											<br> <br> Le C est un langage de programmation impératif généraliste, de bas niveau.
 							              </p>
 
 										<button><a href="https://github.com/GuillaumeDupuy/Projet_RPG_C">Accès Repo Github</a></button>

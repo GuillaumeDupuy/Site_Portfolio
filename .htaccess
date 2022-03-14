@@ -1,0 +1,14 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^contact$ contact.php [L]
+RewriteRule ^about-us$ about-us.php [L]
+RewriteRule ^snake$ snake.php [L]
+RewriteRule ^scrap$ scrap.php [L]
+RewriteRule ^nosql$ nosql.php [L]
+RewriteRule ^machine$ machine.php [L]
+RewriteRule ^rpg$ rpg.php [L]
+RewriteRule ^cardgame$ cardgame.php [L]
+RewriteRule ^siteweb$ siteweb.php [L]
+RewriteRule ^subtitles$ subtitles.php [L]
+RewriteRule ^vpn$ vpn.php [L]
+RewriteRule ^contact_validation$ contact_validation.php [L]

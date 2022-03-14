@@ -17,10 +17,7 @@
 				<!-- Header -->
 				<header id="header" class="alt">
 					<a href="/" class="logo"><strong>PortFolio</strong> <span>Guillaume</span></a>
-<<<<<<< HEAD
 					<p><script> const event = new Date(); const options = { weekday: 'long',month: 'long', day: 'numeric' }; document.write(event.toLocaleDateString(undefined, options))</script></p>
-=======
->>>>>>> 2571a8a285b0080ff6f0884576ba52fc237aad31
 					<nav>
 						<a href="#menu">Menu</a>
 					</nav>
@@ -31,8 +28,8 @@
 					<ul class="links">
 		                <li class="active"> <a href="/">Home </a> </li>
 
-		                <li> <a href="about-us.php">About Us</a> </li>
+		                <li> <a href="about-us">About Us</a> </li>
 
-		                <li><a href="contact.php">Contact Us</a></li>
+		                <li><a href="contact">Contact Us</a></li>
             		</ul>
 				</nav>

@@ -9,13 +9,15 @@
 									<div class="row">
 										<div class="col-lg-8">
 											<header class="major">
-												<h1>Card Game</h1>
+												<h1>Projet NoSQL</h1>
 
-												<h4>POO Langage Python</h4>
+												<h4>Pymongo Python/MongoDB</h4>
 
 												<ul class="list-inline dev-icons">
 													<li class="list-inline-item">
 														<i class="devicon-python-plain-wordmark"></i>
+														<i class="devicon-mongodb-plain-wordmark"></i>
+														<i class="devicon-jupyter-plain-wordmark"></i>
 													</li>
 												</ul>
 											</header>
@@ -47,20 +49,19 @@
 											<h2>Description</h2>
 										</header>
 
-							            <p>Le jeu HeartStone est un jeu de cartes. Au début d'une partie, le joueur choisit un jeu de 32 cartes (un « deck » ), préalablement créé, modifié et supprimé par le joueur, pour disputer une bataille contre un joueur adverse. Les deux adversaires s'affrontent sur un plateau de jeu virtuel, similaire à un jeu de plateau. 
-											<br> <br> Le python est un langage de programmation interprété, multi-paradigme et multi-plateforme. Il favorise la programmation impérative structurée, fonctionnelle et orientée objet.
+							            <p>Le but du projet était de récupérer un DataSet, d'en faire une DataBase avec une Collection et de faire une analyse sur cette DataBase <br> <br> MongoDB est un système de gestion de base de données orienté documents, répartissable sur un nombre quelconque d'ordinateurs et ne nécessitant pas de schéma prédéfini des données
 							              </p>   
 
-							            <p>J'ai utilisé la bibliothèque PyGame afin d'avoir une interface graphique pour mon Card Game.</p> 
+							            <p>J'ai utilisé la librairie Pymongo afin de faire du MongoDB en Python.</p> 
 
-										<button><a href="https://github.com/GuillaumeDupuy/Card-Game-Python">Accès Repo Github</a></button>
+										<button><a href="https://github.com/GuillaumeDupuy/Projet_NoSQL">Accès Repo Github</a></button>
 
 									</section>
 
 									<section class="split">
 										<section>
-											<img src="images/projet3.png" class="img-responsive2" alt="">
-											<img src="images/python.png" class="img-responsive2" alt="">
+											<img src="images/nosql.jpg" class="img-responsive2" alt="">
+											<img src="images/nosql2.jpg" class="img-responsive" alt="">
 										</section>
 									</section>
 

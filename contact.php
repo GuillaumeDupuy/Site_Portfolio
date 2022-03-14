@@ -41,34 +41,34 @@
 										// récupérer le mot de passe et supprimer les antislashes ajoutés par le formulaire
 										$message = stripslashes($_REQUEST['message']);
 										$message = mysqli_real_escape_string($conn, $message);
-										//requéte SQL + mot de passe crypté
+										//requéte SQL
 											$query = "INSERT into `contact` (name, email, subject,message)
 													VALUES ('$username', '$email', '$subject','$message')";
 										// Exécuter la requête sur la base de données
 										$res = mysqli_query($conn, $query);
 										if($res){
-											header('Location: contact_validation.php');
+											header('Location: contact_validation');
 										}
 										}else{
 									?>
 
-											<form method="post" action="">
+											<form method="post" action="contact">
 												<div class="fields">
 													<div class="field half">
 														<label for="name">Name</label>
-														<input type="text" name="name" id="name" />
+														<input type="text" name="name" id="name" required="required"/>
 													</div>
 													<div class="field half">
 														<label for="email">Email</label>
-														<input type="text" name="email" id="email" />
+														<input type="email" name="email" id="email" required="required"/>
 													</div>
 													<div class="field">
 														<label for="subject">Subject</label>
-														<input type="text" name="subject" id="subject" />
+														<input type="text" name="subject" id="subject" required="required"/>
 													</div>
 													<div class="field">
 														<label for="message">Notes</label>
-														<textarea type="text" name="message" id="message" rows="6"></textarea>
+														<textarea type="text" name="message" id="message" rows="6" required="required"></textarea>
 													</div>
 
 													<div class="field half text-right">
@@ -93,14 +93,14 @@
 								<section>
 									<div class="contact-method">
 										<span class="icon alt fa-phone"></span>
-										<h3>Télephone</h3>
+										<h3>Phone</h3>
 										<span>+33 6.59.28.83.64</span>
 									</div>
 								</section>
 								<section>
 									<div class="contact-method">
 										<span class="icon alt fa-home"></span>
-										<h3>Addresse</h3>
+										<h3>Address</h3>
 										<span>Neuilly-Plaisance, 93360 <br> France</span>
 									</div>
 								</section>

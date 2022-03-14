@@ -27,12 +27,12 @@
 											<br>
 
 											<ul class="icons">
-												<li><a href="https://www.facebook.com/guillaume.dupuy.56/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-												<li><a href="https://www.instagram.com/guill_dup/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+												<!--<li><a href="https://www.facebook.com/guillaume.dupuy.56/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>-->
+												<!--<li><a href="https://www.instagram.com/guill_dup/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>-->
 												<li><a href="linkedin.com/in/guillaume-dupuy/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 											</ul>
 
-											<a href="contact.php" class="button next scrolly">Contact</a>
+											<a href="contact" class="button next scrolly">Contact</a>
 										</div>
 									</div>
 									
@@ -49,7 +49,7 @@
 
 							            <p> Le but du projet était de réaliser un VLC Player qui prend en charge un fichier sous-titres,
 											ce qui nous amène à travailler sur du XAML afin de faire une fênetre App et de faire un regex sur
-											le fichier srt afin d'afficher les sous-titres où bon moment du film<br> <br>C# est un langage de 
+											le fichier srt afin d'afficher les sous-titres au bon moment du film.<br> <br>C# est un langage de 
 											programmation orientée objet, commercialisé par Microsoft depuis 2002 et destiné à 
 											développer sur la plateforme Microsoft .NET.
 							              </p>
