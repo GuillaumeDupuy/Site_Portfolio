@@ -44,10 +44,10 @@
 				<!-- Menu -->
 				<nav id="menu">
 					<ul class="links">
-		                <li class="active"> <a href="/">Home </a> </li>
+		                <li class="active"> <a href="/">Accueil</a> </li>
 
-		                <li> <a href="about-us">About Us</a> </li>
+		                <li> <a href="about-us">A Propos</a> </li>
 
-		                <li><a href="contact">Contact Us</a></li>
+		                <li><a href="contact">Contact</a></li>
             		</ul>
 				</nav>

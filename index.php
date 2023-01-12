@@ -9,7 +9,7 @@
 							<div class="content">
 								<p>Programmeur Junior, Web Developpeur, DATA Scientist, CTF Player</p>
 								<ul class="actions">
-									<li><a href="contact" class="button next scrolly">Contact Us</a></li>
+									<li><a href="contact" class="button next scrolly">Me contacter</a></li>
 								</ul>
 							</div>
 						</div>
@@ -23,14 +23,14 @@
 					<section>
 						<div class="inner">
 							<header class="major">
-								<h2>About us</h2>
+								<h2>A Propos</h2>
 							</header>
 							<p>Je m'appelle Guillaume DUPUY, j'ai 21 ans, je suis actuellement en M1 Informatique Spécialité DATA/IA à Paris Ynov Campus.
 								Je suis passionné par l'informatique et les nouvelles technologies, je suis un autodidacte et j'aime apprendre de nouvelles choses.
 								Je participe à des CTF (Capture The Flag) en ligne et des compétitions de code tels que "Break the Code" de l'entreprise "Sopra Steria" Edition 2022 ou bien "Tech Challenger" Edition 2023.
 							</p>
 							<ul class="actions">
-								<li><a href="about-us" class="button next">Read more</a></li>
+								<li><a href="about-us" class="button next">Lire plus</a></li>
 							</ul>
 						</div>
 					</section>
@@ -71,7 +71,7 @@
 								<p>All Languages</p>
 
 								<div class="major-actions">
-									<a href="hello" class="button small next">View Projet</a>
+									<a href="snake" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -90,7 +90,7 @@
 								<p>Python/MongoDB/Streamlit</p>
 
 								<div class="major-actions">
-									<a href="machine" class="button small next">View Projet</a>
+									<a href="rpg" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -109,7 +109,7 @@
 								<p>Flask Python/MongoDB</p>
 
 								<div class="major-actions">
-									<a href="scrap" class="button small next">View Projet</a>
+									<a href="cardgame" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -128,7 +128,7 @@
 								<p>Langage C++</p>
 
 								<div class="major-actions">
-									<a href="snake" class="button small next">View Projet</a>
+									<a href="siteweb" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -147,7 +147,7 @@
 								<p>Langage C#</p>
 
 								<div class="major-actions">
-									<a href="subtitles" class="button small next">View Projet</a>
+									<a href="subtitles" class="button small next">Voir Projet</a>
 								</div>
 							</header>
 						</article>
@@ -185,7 +185,7 @@
 								<p>Shell Linux</p>
 
 								<div class="major-actions">
-									<a href="vpn" class="button small next">View Projet</a>
+									<a href="vpn" class="button small next">Voir Projet</a>
 								</div>
 							</header>
 						</article>
@@ -223,7 +223,7 @@
 								<p>...</p>
 
 								<div class="major-actions">
-									<a href="" class="button small next">View Projet</a>
+									<a href="scrap" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -242,7 +242,7 @@
 								<p>Langage C</p>
 
 								<div class="major-actions">
-									<a href="rpg" class="button small next">View Projet</a>
+									<a href="nosql" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -261,7 +261,7 @@
 								<p>...</p>
 
 								<div class="major-actions">
-									<a href="" class="button small next">View Projet</a>
+									<a href="machine" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -290,6 +290,11 @@
 
 								<div class="col-6">
 									<p>Création des applications web avec les technologies : HTML/CSS, Node js, Framework PHP, NoSQL, WordPress, MySQL</p>
+                                        <i style="font-size: 2.1em;" class="devicon-figma-plain"></i>
+                                        <i style="font-size: 2.1em;" class="devicon-git-plain"></i>
+                                        <i style="font-size: 2.1em;" class="devicon-mysql-plain"></i>
+                                        <i style="font-size: 2.1em;" class="devicon-putty-plain"></i>
+                                        <br> <br>
 									<p><strong>- Création d'applications web</strong></p>
 								</div>
 

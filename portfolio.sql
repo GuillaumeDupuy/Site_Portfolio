@@ -29,6 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `contact` (
   `name` varchar(20) NOT NULL,
+  `firstname` varchar(20) NOT NULL,
   `email` varchar(50) NOT NULL,
   `subject` varchar(100) NOT NULL,
   `message` varchar(255) NOT NULL
