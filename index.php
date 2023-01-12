@@ -7,7 +7,7 @@
 								<h1>Guillaume DUPUY</h1>
 							</header>
 							<div class="content">
-								<p>Programmeur Junior, Web Developpeur, DATA Scientist</p>
+								<p>Programmeur Junior, Web Developpeur, DATA Scientist, CTF Player</p>
 								<ul class="actions">
 									<li><a href="contact" class="button next scrolly">Contact Us</a></li>
 								</ul>
@@ -25,7 +25,10 @@
 							<header class="major">
 								<h2>About us</h2>
 							</header>
-							<p>Je m'appelle Guillaume DUPUY, j'ai 20 ans, je suis actuellement en B3 Informatique Spécialité DATA à Paris Ynov Campus.</p>
+							<p>Je m'appelle Guillaume DUPUY, j'ai 21 ans, je suis actuellement en M1 Informatique Spécialité DATA/IA à Paris Ynov Campus.
+								Je suis passionné par l'informatique et les nouvelles technologies, je suis un autodidacte et j'aime apprendre de nouvelles choses.
+								Je participe à des CTF (Capture The Flag) en ligne et des compétitions de code tels que "Break the Code" de l'entreprise "Sopra Steria" Edition 2022 ou bien "Tech Challenger" Edition 2023.
+							</p>
 							<ul class="actions">
 								<li><a href="about-us" class="button next">Read more</a></li>
 							</ul>
@@ -34,6 +37,83 @@
 					
 					<!-- Jobs -->
 					<section class="tiles">
+
+						<article>
+							<span class="image">
+								<img src="images/projet9.png" alt="" />
+							</span>
+
+							<header class="major">
+								<p>
+				                   <i class="fa fa-calendar"></i> 05-11-2022 &nbsp;&nbsp;
+				                </p>
+
+								<h3>CTF Online</h3>
+								<p>Python/C/Java</p>
+
+								<div class="major-actions">
+									<a href="ctf" class="button small next">View Projet</a>
+								</div>
+							</header>
+						</article>
+
+						<article>
+							<span class="image">
+								<img src="images/projet10.png" alt="" />
+							</span>
+
+							<header class="major">
+								<p>
+				                   <i class="fa fa-calendar"></i> 25-09-2022 &nbsp;&nbsp;
+				                </p>
+
+								<h3>Hello-World</h3>
+								<p>All Languages</p>
+
+								<div class="major-actions">
+									<a href="hello" class="button small next">View Projet</a>
+								</div>
+							</header>
+						</article>
+
+						<article>
+							<span class="image">
+								<img src="images/projet8.png" alt="" />
+							</span>
+
+							<header class="major">
+								<p>
+				                   <i class="fa fa-calendar"></i> 29-03-2022 &nbsp;&nbsp;
+				                </p>
+
+								<h3>Machine Learning de pari de match de Tennis</h3>
+								<p>Python/MongoDB/Streamlit</p>
+
+								<div class="major-actions">
+									<a href="machine" class="button small next">View Projet</a>
+								</div>
+							</header>
+						</article>
+
+						<article>
+							<span class="image">
+								<img src="images/projet7.jpg" alt="" />
+							</span>
+
+							<header class="major">
+								<p>
+				                   <i class="fa fa-calendar"></i> 22-02-2022 &nbsp;&nbsp;
+				                </p>
+
+								<h3>Scraping Web & Flask API & Base de Données & Streamlit</h3>
+								<p>Flask Python/MongoDB</p>
+
+								<div class="major-actions">
+									<a href="scrap" class="button small next">View Projet</a>
+								</div>
+							</header>
+						</article>
+
 						<article>
 							<span class="image">
 								<img src="images/projet1.png" alt="" />
@@ -49,63 +129,6 @@
 
 								<div class="major-actions">
 									<a href="snake" class="button small next">View Projet</a>
-								</div>
-							</header>
-						</article>
-
-						<article>
-							<span class="image">
-								<img src="images/projet2.jpg" alt="" />
-							</span>
-
-							<header class="major">
-								<p>
-				                   <i class="fa fa-calendar"></i> 15-03-2019 &nbsp;&nbsp;
-				                </p>
-
-								<h3>RPG</h3>
-								<p>Langage C</p>
-
-								<div class="major-actions">
-									<a href="rpg" class="button small next">View Projet</a>
-								</div>
-							</header>
-						</article>
-
-						<article>
-							<span class="image">
-								<img src="images/projet3.png" alt="" />
-							</span>
-
-							<header class="major">
-								<p>
-				                   <i class="fa fa-calendar"></i> 15-06-2019 &nbsp;&nbsp;
-				                </p>
-
-								<h3>Card Game</h3>
-								<p>Langage Python</p>
-
-								<div class="major-actions">
-									<a href="cardgame" class="button small next">View Projet</a>
-								</div>
-							</header>
-						</article>
-
-						<article>
-							<span class="image">
-								<img src="images/projet4.png" alt="" />
-							</span>
-
-							<header class="major">
-								<p>
-				                   <i class="fa fa-calendar"></i> 15-05-2020 &nbsp;&nbsp;
-				                </p>
-
-								<h3>Développement Site Web</h3>
-								<p>Langage HTML/CSS</p>
-
-								<div class="major-actions">
-									<a href="siteweb" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -131,6 +154,25 @@
 
 						<article>
 							<span class="image">
+								<img src="images/projet4.png" alt="" />
+							</span>
+
+							<header class="major">
+								<p>
+				                   <i class="fa fa-calendar"></i> 15-05-2020 &nbsp;&nbsp;
+				                </p>
+
+								<h3>Développement Site Web</h3>
+								<p>Langage HTML/CSS</p>
+
+								<div class="major-actions">
+									<a href="siteweb" class="button small next">View Projet</a>
+								</div>
+							</header>
+						</article>
+
+						<article>
+							<span class="image">
 								<img src="images/projet6.jpeg" alt="" />
 							</span>
 
@@ -147,64 +189,83 @@
 								</div>
 							</header>
 						</article>
-						
+
 						<article>
 							<span class="image">
-								<img src="images/projet7.jpg" alt="" />
+								<img src="images/projet3.png" alt="" />
 							</span>
 
 							<header class="major">
 								<p>
-				                   <i class="fa fa-calendar"></i> 22-02-2022 &nbsp;&nbsp;
+				                   <i class="fa fa-calendar"></i> 15-06-2019 &nbsp;&nbsp;
 				                </p>
 
-								<h3>Scraping Web & Flask API & Base de Données & Streamlit</h3>
-								<p>Flask Python/MongoDB</p>
+								<h3>Card Game</h3>
+								<p>Langage Python</p>
 
 								<div class="major-actions">
-									<a href="scrap" class="button small next">View Projet</a>
+									<a href="cardgame" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
-						
+
 						<article>
 							<span class="image">
-								<img src="images/projet9.jpg" alt="" />
+								<img src="images/" alt="" />
 							</span>
 
 							<header class="major">
 								<p>
-				                   <i class="fa fa-calendar"></i> 10-01-2022 &nbsp;&nbsp;
+				                   <i class="fa fa-calendar"></i> 00-00-0000 &nbsp;&nbsp;
 				                </p>
 
-								<h3>Projet NoSQL</h3>
-								<p>Python/MongoDB</p>
+								<h3>No Project</h3>
+								<p>...</p>
 
 								<div class="major-actions">
-									<a href="nosql" class="button small next">View Projet</a>
+									<a href="" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
-						
+
 						<article>
 							<span class="image">
-								<img src="images/projet8.jpg" alt="" />
+								<img src="images/projet2.jpg" alt="" />
 							</span>
 
 							<header class="major">
 								<p>
-				                   <i class="fa fa-calendar"></i> 01-03-2022 &nbsp;&nbsp;
+				                   <i class="fa fa-calendar"></i> 15-03-2019 &nbsp;&nbsp;
 				                </p>
 
-								<h3>Machine Learning</h3>
-								<p>Python</p>
+								<h3>RPG</h3>
+								<p>Langage C</p>
 
 								<div class="major-actions">
-									<a href="machine" class="button small next">View Projet</a>
+									<a href="rpg" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
-						
+
+						<article>
+							<span class="image">
+								<img src="images/" alt="" />
+							</span>
+
+							<header class="major">
+								<p>
+				                   <i class="fa fa-calendar"></i> 00-00-0000 &nbsp;&nbsp;
+				                </p>
+
+								<h3>No Project</h3>
+								<p>...</p>
+
+								<div class="major-actions">
+									<a href="" class="button small next">View Projet</a>
+								</div>
+							</header>
+						</article>
+								
 					</section>
 
 					<!-- Services -->
