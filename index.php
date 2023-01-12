@@ -71,7 +71,7 @@
 								<p>All Languages</p>
 
 								<div class="major-actions">
-									<a href="snake" class="button small next">View Projet</a>
+									<a href="hello" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -90,7 +90,7 @@
 								<p>Python/MongoDB/Streamlit</p>
 
 								<div class="major-actions">
-									<a href="rpg" class="button small next">View Projet</a>
+									<a href="machine" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -109,7 +109,7 @@
 								<p>Flask Python/MongoDB</p>
 
 								<div class="major-actions">
-									<a href="cardgame" class="button small next">View Projet</a>
+									<a href="scrap" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -128,7 +128,7 @@
 								<p>Langage C++</p>
 
 								<div class="major-actions">
-									<a href="siteweb" class="button small next">View Projet</a>
+									<a href="snake" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -223,7 +223,7 @@
 								<p>...</p>
 
 								<div class="major-actions">
-									<a href="scrap" class="button small next">View Projet</a>
+									<a href="" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -242,7 +242,7 @@
 								<p>Langage C</p>
 
 								<div class="major-actions">
-									<a href="nosql" class="button small next">View Projet</a>
+									<a href="rpg" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -261,7 +261,7 @@
 								<p>...</p>
 
 								<div class="major-actions">
-									<a href="machine" class="button small next">View Projet</a>
+									<a href="" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
