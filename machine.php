@@ -30,7 +30,7 @@
 											<ul class="icons">
 												<!--<li><a href="https://www.facebook.com/guillaume.dupuy.56/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>-->
 												<!--<li><a href="https://www.instagram.com/guill_dup/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>-->
-												<li><a href="linkedin.com/in/guillaume-dupuy/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://www.linkedin.com/in/guillaume-dupuy/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 											</ul>
 
 											<a href="contact" class="button next scrolly">Contact</a>
