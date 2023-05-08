@@ -37,6 +37,25 @@
 					
 					<!-- Jobs -->
 					<section class="tiles">
+					    
+						<article>
+							<span class="image">
+								<img src="images/terminal2.png" alt="" />
+							</span>
+
+							<header class="major">
+								<p>
+				                   <i class="fa fa-calendar"></i> 10-04-2023 &nbsp;&nbsp;
+				                </p>
+
+								<h3>Terminal Web</h3>
+								<p>Javascript</p>
+
+								<div class="major-actions">
+									<a href="terminal" class="button small next">View Projet</a>
+								</div>
+							</header>
+						</article>
 
 						<article>
 							<span class="image">
@@ -125,7 +144,7 @@
 				                </p>
 
 								<h3>Snake Graphique</h3>
-								<p>Langage C++</p>
+								<p>C++</p>
 
 								<div class="major-actions">
 									<a href="snake" class="button small next">View Projet</a>
@@ -144,7 +163,7 @@
 				                </p>
 
 								<h3>Projet Lecteur Vidéo/Sous-Titres</h3>
-								<p>Langage C#</p>
+								<p>C#</p>
 
 								<div class="major-actions">
 									<a href="subtitles" class="button small next">View Projet</a>
@@ -163,7 +182,7 @@
 				                </p>
 
 								<h3>Développement Site Web</h3>
-								<p>Langage HTML/CSS</p>
+								<p>HTML/CSS</p>
 
 								<div class="major-actions">
 									<a href="siteweb" class="button small next">View Projet</a>
@@ -201,29 +220,10 @@
 				                </p>
 
 								<h3>Card Game</h3>
-								<p>Langage Python</p>
+								<p>Python</p>
 
 								<div class="major-actions">
 									<a href="cardgame" class="button small next">View Projet</a>
-								</div>
-							</header>
-						</article>
-
-						<article>
-							<span class="image">
-								<img src="images/" alt="" />
-							</span>
-
-							<header class="major">
-								<p>
-				                   <i class="fa fa-calendar"></i> 00-00-0000 &nbsp;&nbsp;
-				                </p>
-
-								<h3>No Project</h3>
-								<p>...</p>
-
-								<div class="major-actions">
-									<a href="" class="button small next">View Projet</a>
 								</div>
 							</header>
 						</article>
@@ -239,7 +239,7 @@
 				                </p>
 
 								<h3>RPG</h3>
-								<p>Langage C</p>
+								<p>C</p>
 
 								<div class="major-actions">
 									<a href="rpg" class="button small next">View Projet</a>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Terminal</title>
+	<link rel="stylesheet" media="all" href="assets/css/terminal.css">
+</head>
+
+<body>
+	<div id="terminal"></div>
+
+	<div id="InfoBanner" hidden>
+		<span class="reversed reversedRight">
+			<span>
+				&#9888;
+			</span>
+		</span>
+		<span class="reversed reversedLeft">
+			WARNING : THE THEME IS NOT SECURE, I HACKED YOUR COMPUTER NOW !
+		</span>
+		<canvas width="1000" height="2000" id="canv" style="opacity: 20%;margin-top: -12%;"></canvas>
+	</div>
+
+	<script src="assets/js/terminal.js"></script>
+	<script>
+		var terminal = new Terminal('terminal', {}, {
+			execute: function (cmd, args) {
+				switch (cmd) {
+					case 'clear':
+						terminal.clear();
+						return '';
+
+					case 'help':
+					case 'h':
+					case '?':
+						return terminal.displayHelp();
+
+					case 'theme':
+						if (args && args[0]) {
+							if (args.length > 1) return 'Too many arguments';
+							else if (args[0].match(/^dark-light|dark|white|kali|ubuntu|dracula|transparent|nyan-cat$/)) { terminal.setTheme(args[0]); InfoBanner.hidden = true; return ''; }
+							else if (args[0].match(/^hacker$/)) { terminal.setTheme(args[0]); InfoBanner.hidden = false; return ''; }
+							else return 'Invalid theme (dark-light, dark, white, kali, ubuntu, hacker)';
+						}
+						return terminal.getTheme();
+
+					case 'version':
+						return '1.0.0';
+					case 'ls':
+						var directory = '.';
+						if (args && args.length > 0) {
+							if (args.length > 1) return 'Too many arguments';
+							else directory = args[0];
+						}
+						return terminal.listDirectory(directory);
+					case 'll':
+						var directory = '.';
+						if (args && args.length > 0) {
+							if (args.length > 1) return 'Too many arguments';
+							else directory = args[0];
+						}
+						return terminal.llistDirectory(directory);
+					case 'cd':
+						var directory = '/';
+						if (args && args.length > 0) {
+							if (args.length > 1) return 'Too many arguments';
+							else directory = args[0];
+						}
+						return terminal.changeDirectory(directory);
+					case 'pwd':
+						return terminal.currentDirectory();
+					case 'cat':
+						if (!args || args.length <= 0) return 'Too few arguments<br />Usage: cat &lt;file&gt;';
+						else if (args.length > 1) return 'Too many arguments<br />Usage: cat &lt;file&gt;';
+						else return terminal.catFile(args[0]);
+					case 'root':
+						return "You can't acces to root. Try to use sudo.";
+					case 'open':
+						if (!args || args.length <= 0) return 'Too few arguments<br />Usage: cat &lt;file&gt;';
+						else if (args.length > 1) return 'Too many arguments<br />Usage: cat &lt;file&gt;';
+						else return terminal.openFile(args[0]);
+
+					case 'about':
+						return 'Inspired by <a href="https://github.com/SDA/terminal" class="external" target="_blank">sasadjolic</a> project';
+
+					case 'sudo':
+						if (!args || args.length <= 0) return 'Too few arguments<br />Usage: sudo &lt;command&gt or sudo &lt;command&gt &lt;directory/filename&gt;';
+						// else if (args.length > 1) return 'Too many arguments<br />Usage: sudo &lt;command&gt;';
+						else if (args[0] == 'su') return "You are in root";
+						else if (args[0] == 'cat') if (args.length < 2) return 'Too few arguments<br />Usage: sudo &lt;command&gt &lt;filename&gt;'; else return terminal.catFile(args[1]);
+						else if (args[0] == 'open') if (args.length < 2) return 'Too few arguments<br />Usage: sudo &lt;command&gt &lt;link&gt;'; else return terminal.openFile(args[1]);
+						else if (args[0] == 'ls') if (args.length < 2) return 'Too few arguments<br />Usage: sudo &lt;command&gt &lt;directory&gt;'; else return terminal.listDirectory(args[1]);
+						else if (args[0] == 'll') if (args.length < 2) return 'Too few arguments<br />Usage: sudo &lt;command&gt &lt;directory&gt;'; else return terminal.llistDirectory(args[1]);
+						else if (args[0] == 'cd') if (args.length < 2) return 'Too few arguments<br />Usage: sudo &lt;command&gt &lt;directory&gt;'; else return terminal.changeDirectory(args[1]);
+						else if (args[0] == 'pwd') if (args.length < 2) return 'Too few arguments<br />Usage: sudo &lt;command&gt &lt;directory&gt;'; else return terminal.currentDirectory();
+						else return "Sorry, try again.";
+					
+					case 'rm':
+						return "You can't delete files";
+
+					case 'rmdir':
+						return "You can't delete directories";
+
+					case 'mkdir':
+						return "You can't create directories";
+
+					case 'touch':
+						return "You can't create files";
+					
+					case 'echo':
+						return terminal.echoString(args[0]);
+
+					case 'date':
+						return terminal.getDate();
+					
+					case 'hostname':
+						if (args && args[0]) {
+							if (args.length > 1) return 'Too many arguments';
+							else { terminal.setHostname(args[0]); return ''; }
+						}
+						return terminal.getHostname();
+
+					case 'grep':
+						if (!args || args.length <= 0) return 'Too few arguments<br />Usage: grep &lt;string&gt &lt;file&gt;';
+						else if (args.length > 2) return 'Too many arguments<br />Usage: grep &lt;string&gt &lt;file&gt;';
+						else return terminal.grepString(args[0], args[1]);
+
+					case 'tail':
+						if (!args || args.length <= 0) return 'Too few arguments<br />Usage: tail &lt;file&gt;';
+						else if (args.length > 2) return 'Too many arguments<br />Usage: tail &lt;file&gt;';
+						else return terminal.tailFile(args[0], args[1]);
+
+					case 'ping':
+						if (!args || args.length <= 0) return 'Too few arguments<br />Usage: ping &lt;host&gt;';
+						else if (args.length > 1) return 'Too many arguments<br />Usage: ping &lt;host&gt;';
+						else return terminal.pingHost(args[0]);
+
+					case 'code': 
+						return terminal.code(args[0]);
+
+					default:
+						// Unknown command.
+						return false;
+				};
+			}
+		});
+	</script>
+
+</body>
+
+</html>
