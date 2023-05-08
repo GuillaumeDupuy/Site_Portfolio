@@ -37,15 +37,18 @@
 										// récupérer l'email et supprimer les antislashes ajoutés par le formulaire
 										$email = stripslashes($_REQUEST['email']);
 										$email = mysqli_real_escape_string($conn, $email);
-										// récupérer le mot de passe et supprimer les antislashes ajoutés par le formulaire
+										// récupérer le sujet et supprimer les antislashes ajoutés par le formulaire
 										$subject = stripslashes($_REQUEST['subject']);
 										$subject = mysqli_real_escape_string($conn, $subject);
-										// récupérer le mot de passe et supprimer les antislashes ajoutés par le formulaire
+										// récupérer le message et supprimer les antislashes ajoutés par le formulaire
 										$message = stripslashes($_REQUEST['message']);
 										$message = mysqli_real_escape_string($conn, $message);
+										// récupérer la date où le client a fait ca demande
+										date_default_timezone_set("Europe/Paris");
+										$date = date("Y/m/d H:i:s");
 										//requéte SQL
-											$query = "INSERT into `contact` (name, firstname, email, subject,message)
-													VALUES ('$username', '$firstname', '$email', '$subject','$message')";
+											$query = "INSERT into `contact` (name, firstname, email, subject,message,DateInserted)
+													VALUES ('$username', '$firstname', '$email', '$subject','$message','$date')";
 										// Exécuter la requête sur la base de données
 										$res = mysqli_query($conn, $query);
 										if($res){

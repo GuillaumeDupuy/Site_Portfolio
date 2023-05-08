@@ -29,11 +29,12 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `contact` (
   `name` varchar(20) NOT NULL,
-  `firstname` varchar(20) NOT NULL,
+  `firstname` varchar(20) DEFAULT NULL,
   `email` varchar(50) NOT NULL,
   `subject` varchar(100) NOT NULL,
-  `message` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `message` varchar(700) NOT NULL,
+  `DateInserted` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
