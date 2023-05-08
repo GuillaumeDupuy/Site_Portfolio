@@ -27,7 +27,7 @@
 							</header>
 							<p>Je m'appelle Guillaume DUPUY, j'ai 21 ans, je suis actuellement en M1 Informatique Spécialité DATA/IA à Paris Ynov Campus.
 								Je suis passionné par l'informatique et les nouvelles technologies, je suis un autodidacte et j'aime apprendre de nouvelles choses.
-								Je participe à des CTF (Capture The Flag) en ligne et des compétitions de code tels que "Break the Code" de l'entreprise "Sopra Steria" Edition 2022 ou bien "Tech Challenger" Edition 2023.
+								Je participe à des CTF (Capture The Flag) en ligne et des compétitions de code tels que "Break the Code" de l'entreprise "Sopra Steria" Edition 2022 ou bien "Tech Challenger" Edition 2023, HackY'nov 2023 & HackDay 2023 avec l'équipe <a href="https://guillaumedupuy.fr/smep">SMEP</a>.
 							</p>
 							<ul class="actions">
 								<li><a href="about-us" class="button next">Read more</a></li>
