@@ -49,7 +49,7 @@
 
 							            <p>Mon nouveau projet consiste en la recréation et la simulation d'un terminal de commande dans un navigateur web, en utilisant JavaScript. Le terminal de commande est un outil très utile pour les développeurs, et la possibilité de l'avoir dans un navigateur web offre un accès facile et pratique. J'ai conçu l'interface utilisateur pour ressembler à un véritable terminal de commande, avec des fonctionnalités telles que la saisie de commandes, l'affichage de résultats, la saisie de texte en direct et la mise en forme de la sortie.
 							            <br> <br> L'ensemble du projet a été réalisé en utilisant JavaScript, ce qui m'a permis de travailler sur de nombreux aspects de la programmation, tels que la gestion des événements, les fonctions, les tableaux et les objets.
-							            <br> <br> Si vous voulez voir et essayer cliquer <a href="terminal-web">ici</a>.
+							            <br> <br> Si vous voulez voir et essayer cliquer <a href="https://terminal.guillaumedupuy.fr/">ici</a>.
 							              </p>   
 
 										<button><a href="https://github.com/GuillaumeDupuy/Terminal-Web">Accès Repo Github</a></button>
