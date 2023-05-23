@@ -150,6 +150,22 @@
 .terminal-nyan-cat .separator{color:#dd00ff;}
 .terminal-nyan-cat .separator2{color:#f8f8f2;}
 .terminal-nyan-cat .separator3{color:#f8f8f2;}
+/* powershell */
+.terminal-powershell{color:#ffffff;font-family:Inconsolata, monospace;}
+.terminal-powershell a{color: #fff700;}
+.terminal-transparent a.external{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9QTFRFzs7OqKio0NDQ////////DlgqrAAAAAV0Uk5T/////wD7tg5TAAAAN0lEQVR42izLyQ0AMAgDQYPpv+b4yD7QEBGcYoI0yN454Sqy9KnfTUufQpB7c/9AM1RlE58AAwBEcAE4zo3mOAAAAABJRU5ErkJggg==") no-repeat scroll right center transparent;padding-right:13px;outline:none;}
+.terminal-powershell .background{background: #012456;height: 100%;left: 0;pointer-events: none;position: absolute;top: 0;width: 100%;}
+.terminal-powershell .background .interlace{display:none;}
+.terminal-powershell .container{text-shadow:none;}
+.terminal-powershell .container output pre{color:#fff;font-family:Inconsolata, monospace;}
+.terminal-powershell .prompt{color:#ffffff;}
+.terminal-powershell .directory{color:#ff0000}
+.terminal-powershell .file{color:#ff0000;}
+.terminal-powershell .user{color:#f6f6f7;}
+.terminal-powershell .hostname{color:#F6F6F7;}
+.terminal-powershell .separator{color:#fff;}
+.terminal-powershell .separator2{color:#fff;}
+.terminal-powershell .separator3{color:#fff;}
 
 .terminal {font-size:4vw}
 .logotext {display:none;}

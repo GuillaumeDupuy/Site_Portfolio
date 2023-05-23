@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Terminal</title>
-	<link rel="stylesheet" media="all" href="assets/css/terminal.css">
+	<link rel="stylesheet" media="all" href="terminal.css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
 		<canvas width="1000" height="2000" id="canv" style="opacity: 20%;margin-top: -12%;"></canvas>
 	</div>
 
-	<script src="assets/js/terminal.js"></script>
+	<script src="terminal.js"></script>
 	<script>
 		var terminal = new Terminal('terminal', {}, {
 			execute: function (cmd, args) {
@@ -39,7 +39,7 @@
 					case 'theme':
 						if (args && args[0]) {
 							if (args.length > 1) return 'Too many arguments';
-							else if (args[0].match(/^dark-light|dark|white|kali|ubuntu|dracula|transparent|nyan-cat$/)) { terminal.setTheme(args[0]); InfoBanner.hidden = true; return ''; }
+							else if (args[0].match(/^dark-light|dark|white|kali|ubuntu|dracula|transparent|nyan-cat|powershell$/)) { terminal.setTheme(args[0]); InfoBanner.hidden = true; return ''; }
 							else if (args[0].match(/^hacker$/)) { terminal.setTheme(args[0]); InfoBanner.hidden = false; return ''; }
 							else return 'Invalid theme (dark-light, dark, white, kali, ubuntu, hacker)';
 						}

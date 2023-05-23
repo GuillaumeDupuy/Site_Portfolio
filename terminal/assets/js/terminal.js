@@ -40,7 +40,6 @@
                     '<div class="logotext">',
                     "<br />████████╗███████╗██████╗ ███╗   &nbsp;&nbsp;███╗██╗███╗   &nbsp;&nbsp;██╗ █████╗ ██╗<br/>╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  &nbsp;██║██╔══██╗██║<br/>   &nbsp;&nbsp;&nbsp;██║   &nbsp;&nbsp;█████╗  &nbsp;██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║<br/>   &nbsp;&nbsp;&nbsp;██║   &nbsp;&nbsp;██╔══╝  &nbsp;██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║ <br/>   &nbsp;&nbsp;&nbsp;██║   &nbsp;&nbsp;███████╗██║  &nbsp;██║██║ ╚═╝ ██║██║██║ ╚████║██║  &nbsp;██║███████╗<br/>   &nbsp;&nbsp;&nbsp;╚═╝   &nbsp;&nbsp;╚══════╝╚═╝  &nbsp;╚═╝╚═╝     &nbsp;&nbsp;&nbsp;&nbsp;╚═╝╚═╝╚═╝  &nbsp;╚═══╝╚═╝  &nbsp;╚═╝╚══════╝",
                     "</div>",
-                    "<br /> Back to home page: <a href='https://guillaumedupuy.fr/'>Home</a>",
                     "<br />",
                     ,
                     "Use command linux to navigate<br />",
@@ -188,7 +187,7 @@
                 },
                 theme: {
                     req_args: [],
-                    opt_args: ["dark-light|dark|white|kali|ubuntu|hacker|dracula|transparent|nyan-cat"],
+                    opt_args: ["dark-light|dark|white|kali|ubuntu|hacker|dracula|transparent|nyan-cat|powershell"],
                     description:
                         "Display current theme or set new theme if argument is provided",
                     usage: "theme white",
