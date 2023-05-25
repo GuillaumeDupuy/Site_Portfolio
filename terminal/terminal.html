@@ -41,7 +41,7 @@
 							if (args.length > 1) return 'Too many arguments';
 							else if (args[0].match(/^dark-light|dark|white|kali|ubuntu|dracula|transparent|nyan-cat|powershell$/)) { terminal.setTheme(args[0]); InfoBanner.hidden = true; return ''; }
 							else if (args[0].match(/^hacker$/)) { terminal.setTheme(args[0]); InfoBanner.hidden = false; return ''; }
-							else return 'Invalid theme (dark-light, dark, white, kali, ubuntu, hacker)';
+							else return 'Invalid theme (dark-light, dark, white, kali, ubuntu, hacker, dracula, transparent, nyan-cat, powershell)';
 						}
 						return terminal.getTheme();
 
