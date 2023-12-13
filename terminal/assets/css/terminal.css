@@ -58,7 +58,7 @@
 .terminal-kali{color:white;font-family:Inconsolata, monospace;}
 .terminal-kali a{color:#fff;}
 .terminal-kali a.external{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9QTFRFzs7OqKio0NDQ////////DlgqrAAAAAV0Uk5T/////wD7tg5TAAAAN0lEQVR42izLyQ0AMAgDQYPpv+b4yD7QEBGcYoI0yN454Sqy9KnfTUufQpB7c/9AM1RlE58AAwBEcAE4zo3mOAAAAABJRU5ErkJggg==") no-repeat scroll right center transparent;padding-right:13px;outline:none;}
-.terminal-kali .background{background-image: url("https://i.ibb.co/bgZsT9X/kali.jpg");height:100%;left:0;pointer-events:none;position:absolute;top:0;width:100%;}
+.terminal-kali .background{background-image: url("../../assets/images/kali.jpg");height:100%;left:0;pointer-events:none;position:absolute;top:0;width:100%;}
 .terminal-kali .background .interlace{display:none;}
 .terminal-kali .container{text-shadow:none;}
 .terminal-kali .container output pre{color:white;font-family:Inconsolata, monospace;}
@@ -138,7 +138,7 @@
 .terminal-nyan-cat{color:#f8f8f2;font-family:Inconsolata, monospace;}
 .terminal-nyan-cat a{color:#f8f8f2;}
 .terminal-nyan-cat a.external{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9QTFRFzs7OqKio0NDQ////////DlgqrAAAAAV0Uk5T/////wD7tg5TAAAAN0lEQVR42izLyQ0AMAgDQYPpv+b4yD7QEBGcYoI0yN454Sqy9KnfTUufQpB7c/9AM1RlE58AAwBEcAE4zo3mOAAAAABJRU5ErkJggg==") no-repeat scroll right center transparent;padding-right:13px;outline:none;}
-.terminal-nyan-cat .background{background-image: url("https://i.ibb.co/SsTy8TH/nyan-cat-rainbow.gif");height: 100%;left: 0;pointer-events: none;position: absolute;top: 0;width: 100%;background-size: 100%;}
+.terminal-nyan-cat .background{background-image: url(".../../assets/images/nyan-cat-rainbow.gif");height: 100%;left: 0;pointer-events: none;position: absolute;top: 0;width: 100%;background-size: 100%;}
 .terminal-nyan-cat .background .interlace{display:none;}
 .terminal-nyan-cat .container{text-shadow:none;}
 .terminal-nyan-cat .container output pre{color:#f8f8f2;font-family:Inconsolata, monospace;}
